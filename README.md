@@ -20,4 +20,4 @@ A simple Todo List application built with HTML, CSS, and JavaScript.
 - Event listeners
 - Arrays
 - Functions
-- forEach()
+- Adding and removing elements from the DOM
