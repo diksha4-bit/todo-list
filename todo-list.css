@@ -1,0 +1,71 @@
+ *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        
+    }
+    html {
+    background-color: #f4f6f8; /* outside background */
+}
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border: 2px solid #b90707;
+        background-color:aquamarine;
+        padding: 20px;
+        width: 500px;
+        margin: 60px auto;
+        min-height: 400px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .js-text-input {
+        padding: 8px 15px 8px 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+    .js-date-input {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    .js-add-button {
+        padding: 6px 35px;
+        font-size: 13px;
+        /* border: 1px solid #000; */
+        font-size: 14px;
+        background-color: green;
+        color: white;
+        /* border-radius: 6px; */
+        cursor: pointer;
+    }
+    .js-delete-button {
+        padding: 8px 12px;
+        border: none;
+        font-size: 13px;
+        background-color: rgb(204, 29, 6);
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .js-delete-button:hover, .js-add-button:hover {
+        opacity: 0.8;
+    }
+
+    .todo-grid{
+        display: grid;
+        grid-template-columns: 180px 140px 100px;
+        align-items: center;
+        gap: 10px;
+        padding: 12px;
+        margin-top: 25px;
+        background: #f7f7f7;
+        border-radius: 8px;
+    }
